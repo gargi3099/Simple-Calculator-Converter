@@ -1,5 +1,5 @@
 # Calculator
-This is a simple calculator-converter which is capable of performing all 4 basic arithmetic operations as well as converting rupee into dollar and vice versa. This has been developed using Angular 7.
+This is a simple calculator-converter which is capable of performing all 4 basic arithmetic operations as well as converting rupee into dollar and vice versa.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
 
 ## Development server
