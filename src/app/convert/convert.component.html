@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6">
+        <div class="card text-center text-black">
+            <div class="card-body">
+               <h2>Converter</h2>
+            </div>   
+        </div>
+        <div class="card text-center text-black" >
+            <div class="card-body">
+                <input [(ngModel)]="amount" type="text" placeholder="Enter amount"><br><br>
+                <h5>Select type of currency entered:-</h5>
+                <input type="radio" aria-label="Rupees" [(ngModel)]="currency" value="Rupees">
+                <label>Rupees</label><br>
+                <input type="radio" aria-label="Dollars" [(ngModel)]="currency" value="Dollars">
+                <label>Dollars</label><br><br>
+                <button (click)="convert()" class="btn btn-primary mx-2">Convert</button>
+            </div>
+        </div>
+        <div class="card text-center text-black">
+            <div class="card-body">
+                <h3>Converted currency value : {{result}}</h3><br>
+                <button routerLink="/home" class="btn btn-danger mx-2">Home</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3"></div>
+</div>
